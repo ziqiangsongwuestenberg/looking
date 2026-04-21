@@ -1,6 +1,6 @@
 """
-Looking - Gay News Monitor
-自动搜索并收集 LGBTQ+ 相关新闻
+Looking - Fashion News Monitor
+自动搜索并收集 fashion 相关新闻
 """
 
 import os
@@ -118,7 +118,7 @@ class NewsSearcher:
         """生成 Markdown 报告"""
         today = datetime.now().strftime('%Y-%m-%d')
         
-        md = f"""# Gay News Monitor - {today}
+        md = f"""# Fashion News Monitor - {today}
 
 共找到 {len(results)} 条新闻
 
@@ -174,7 +174,7 @@ class NewsSearcher:
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Gay News Monitor')
+    parser = argparse.ArgumentParser(description='Fashion News Monitor')
     parser.add_argument('--schedule', action='store_true', help='启动定时任务')
     parser.add_argument('--config', default='config.yaml', help='配置文件路径')
     args = parser.parse_args()

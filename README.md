@@ -1,10 +1,10 @@
-# Looking - Gay News Monitor
+# Looking - Fashion News Monitor
 
-自动搜索并收集 LGBTQ+ 相关新闻的 Python 项目。
+自动搜索并收集 fashion 相关新闻的 Python 项目。
 
 ## 功能
 
-- 每日定时搜索最新 gay/LGBTQ+ 相关新闻
+- 每日定时搜索最新 fashion 相关新闻
 - 支持多个关键词搜索
 - 结果保存为 JSON 和 Markdown 格式
 - 可配置定时任务
